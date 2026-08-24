@@ -1,0 +1,55 @@
+{
+  "name": "cba-exchange-rate",
+  "version": "1.2.7",
+  "description": "Official Central Bank of Armenia (Armenia) daily exchange rates — 30 currencies vs AMD, history since 2000. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "cba",
+    "central",
+    "bank",
+    "of",
+    "armenia",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "amd",
+    "central-bank",
+    "official-rates",
+    "armenia",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/cba/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/cba-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/cba-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
