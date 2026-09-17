@@ -1,6 +1,6 @@
 {
   "name": "cba-exchange-rate",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Official Central Bank of Armenia (Armenia) daily exchange rates — 30 currencies vs AMD, history since 2000. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cba",
