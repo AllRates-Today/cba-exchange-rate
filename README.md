@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/cba-exchange-rate.svg)](https://github.com/AllRates-Today/cba-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/cba-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/AMD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcba%3Fsource%3DUSD%26target%3DAMD&query=%24.rate&label=USD%2FAMD%20published%20by%20Central%20Bank%20of%20Armenia&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cba/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcba%3Fsource%3DUSD%26target%3DAMD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cba/)
 
 **Official Central Bank of Armenia (Armenia) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Armenia itself prints, every business day.**
 
@@ -32,6 +34,49 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Armenia table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Armenia — 30 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | AMD | reference | 98.549 |
+| AUD | AMD | reference | 251.35 |
+| BRL | AMD | reference | 72.162 |
+| BYN | AMD | reference | 118.03 |
+| CAD | AMD | reference | 253.85 |
+| CHF | AMD | reference | 434.17 |
+| CNY | AMD | reference | 54 |
+| CZK | AMD | reference | 16.581 |
+| EUR | AMD | reference | 404.72 |
+| GBP | AMD | reference | 477.76 |
+| GEL | AMD | reference | 139.19 |
+| HKD | AMD | reference | 46.126 |
+| INR | AMD | reference | 3.7404 |
+| IRR | AMD | reference | 0.00020472 |
+| JPY | AMD | reference | 2.2873 |
+| KGS | AMD | reference | 4.1382 |
+| KZT | AMD | reference | 0.80316 |
+| NOK | AMD | reference | 37.787 |
+| NZD | AMD | reference | 202.23 |
+| PLN | AMD | reference | 92.41 |
+| RUB | AMD | reference | 4.2413 |
+| SEK | AMD | reference | 36.11 |
+| SGD | AMD | reference | 282.3 |
+| TJS | AMD | reference | 39.213 |
+| UAH | AMD | reference | 8.059 |
+| USD | AMD | reference | 361.97 |
+| UZS | AMD | reference | 0.030664 |
+| XAG | AMD | reference | 21749.106 |
+| XAU | AMD | reference | 1482422.8 |
+| XDR | AMD | reference | 489.45 |
+
+Source: [Official rates published by CBA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cba/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
