@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Central Bank of Armenia itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Central Bank of Armenia table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,49 +47,45 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Central Bank of Armenia — 30 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Central Bank of Armenia — 30 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | AMD | reference | 98.383 |
-| AUD | AMD | reference | 252.52 |
-| BRL | AMD | reference | 71.377 |
-| BYN | AMD | reference | 120.06 |
-| CAD | AMD | reference | 256.59 |
-| CHF | AMD | reference | 438.01 |
-| CNY | AMD | reference | 54.09 |
-| CZK | AMD | reference | 16.653 |
-| EUR | AMD | reference | 405.41 |
-| GBP | AMD | reference | 481.87 |
-| GEL | AMD | reference | 139.24 |
-| HKD | AMD | reference | 46.044 |
-| INR | AMD | reference | 3.8131 |
-| IRR | AMD | reference | 0.00019954 |
-| JPY | AMD | reference | 2.2842 |
-| KGS | AMD | reference | 4.1309 |
-| KZT | AMD | reference | 0.79924 |
-| NOK | AMD | reference | 38.437 |
-| NZD | AMD | reference | 204.85 |
-| PLN | AMD | reference | 92.768 |
-| RUB | AMD | reference | 4.3731 |
-| SEK | AMD | reference | 36.517 |
-| SGD | AMD | reference | 282.51 |
-| TJS | AMD | reference | 39.11 |
-| UAH | AMD | reference | 8.0235 |
-| USD | AMD | reference | 361.36 |
-| UZS | AMD | reference | 0.029985 |
-| XAG | AMD | reference | 20852.393 |
-| XAU | AMD | reference | 1513806.2 |
-| XDR | AMD | reference | 490.17 |
+| AED | AMD | reference | 98.407 |
+| AUD | AMD | reference | 252.55 |
+| BRL | AMD | reference | 71.797 |
+| BYN | AMD | reference | 120.68 |
+| CAD | AMD | reference | 257.2 |
+| CHF | AMD | reference | 438.49 |
+| CNY | AMD | reference | 54.125 |
+| CZK | AMD | reference | 16.658 |
+| EUR | AMD | reference | 405.11 |
+| GBP | AMD | reference | 482.17 |
+| GEL | AMD | reference | 139.23 |
+| HKD | AMD | reference | 46.053 |
+| INR | AMD | reference | 3.814 |
+| IRR | AMD | reference | 0.0001978 |
+| JPY | AMD | reference | 2.2855 |
+| KGS | AMD | reference | 4.1319 |
+| KZT | AMD | reference | 0.80299 |
+| NOK | AMD | reference | 38.501 |
+| NZD | AMD | reference | 205.3 |
+| PLN | AMD | reference | 92.627 |
+| RUB | AMD | reference | 4.3742 |
+| SEK | AMD | reference | 36.435 |
+| SGD | AMD | reference | 282.71 |
+| TJS | AMD | reference | 39.139 |
+| UAH | AMD | reference | 8.0192 |
+| USD | AMD | reference | 361.45 |
+| UZS | AMD | reference | 0.030058 |
+| XAG | AMD | reference | 20834.042 |
+| XAU | AMD | reference | 1499218.7 |
+| XDR | AMD | reference | 489.72 |
 
 </details>
 
 Source: [Official rates published by CBA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cba/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
