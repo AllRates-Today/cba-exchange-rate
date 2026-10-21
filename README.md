@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/cba').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,40 +47,40 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Central Bank of Armenia — 30 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Central Bank of Armenia — 30 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | AMD | reference | 98.407 |
-| AUD | AMD | reference | 252.55 |
-| BRL | AMD | reference | 71.797 |
-| BYN | AMD | reference | 120.68 |
-| CAD | AMD | reference | 257.2 |
-| CHF | AMD | reference | 438.49 |
-| CNY | AMD | reference | 54.125 |
-| CZK | AMD | reference | 16.658 |
-| EUR | AMD | reference | 405.11 |
-| GBP | AMD | reference | 482.17 |
-| GEL | AMD | reference | 139.23 |
-| HKD | AMD | reference | 46.053 |
-| INR | AMD | reference | 3.814 |
-| IRR | AMD | reference | 0.0001978 |
-| JPY | AMD | reference | 2.2855 |
-| KGS | AMD | reference | 4.1319 |
-| KZT | AMD | reference | 0.80299 |
-| NOK | AMD | reference | 38.501 |
-| NZD | AMD | reference | 205.3 |
-| PLN | AMD | reference | 92.627 |
-| RUB | AMD | reference | 4.3742 |
-| SEK | AMD | reference | 36.435 |
-| SGD | AMD | reference | 282.71 |
-| TJS | AMD | reference | 39.139 |
-| UAH | AMD | reference | 8.0192 |
-| USD | AMD | reference | 361.45 |
-| UZS | AMD | reference | 0.030058 |
-| XAG | AMD | reference | 20834.042 |
-| XAU | AMD | reference | 1499218.7 |
-| XDR | AMD | reference | 489.72 |
+| AED | AMD | reference | 98.394 |
+| AUD | AMD | reference | 254.21 |
+| BRL | AMD | reference | 71.877 |
+| BYN | AMD | reference | 120.94 |
+| CAD | AMD | reference | 257.41 |
+| CHF | AMD | reference | 438.17 |
+| CNY | AMD | reference | 54.133 |
+| CZK | AMD | reference | 16.725 |
+| EUR | AMD | reference | 405.92 |
+| GBP | AMD | reference | 483.95 |
+| GEL | AMD | reference | 139.19 |
+| HKD | AMD | reference | 46.055 |
+| INR | AMD | reference | 3.8157 |
+| IRR | AMD | reference | 0.00019718 |
+| JPY | AMD | reference | 2.2868 |
+| KGS | AMD | reference | 4.1314 |
+| KZT | AMD | reference | 0.80807 |
+| NOK | AMD | reference | 38.635 |
+| NZD | AMD | reference | 205.75 |
+| PLN | AMD | reference | 92.984 |
+| RUB | AMD | reference | 4.4121 |
+| SEK | AMD | reference | 36.543 |
+| SGD | AMD | reference | 282.9 |
+| TJS | AMD | reference | 39.179 |
+| UAH | AMD | reference | 8.0251 |
+| USD | AMD | reference | 361.4 |
+| UZS | AMD | reference | 0.030102 |
+| XAG | AMD | reference | 20635.913 |
+| XAU | AMD | reference | 1490603 |
+| XDR | AMD | reference | 489.57 |
 
 </details>
 
