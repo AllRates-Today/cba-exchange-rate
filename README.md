@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Armenia — 30 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-28 by Central Bank of Armenia — 30 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -245,6 +245,7 @@ The Central Bank of Armenia publishes daily reference dram rates for 30 currenci
 
 - Publisher's own page: [Exchange rate archive](https://old.cba.am/en/SitePages/ExchangeArchive.aspx) · [www.cba.am](https://www.cba.am)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Armenia rates page](https://allratestoday.com/central-bank-rates-api/cba/)
+- In the API: usually by **12:30 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
