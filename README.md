@@ -32,40 +32,40 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-24 by Central Bank of Armenia — 30 rates. Updated 2026-11-24.</summary>
+<summary>Table as text: published 2026-11-25 by Central Bank of Armenia — 30 rates. Updated 2026-11-25.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | AMD | reference | 98.14 |
-| AUD | AMD | reference | 238.74 |
-| BRL | AMD | reference | 60.777 |
-| BYN | AMD | reference | 120.37 |
-| CAD | AMD | reference | 251.37 |
-| CHF | AMD | reference | 429.13 |
-| CNY | AMD | reference | 54.108 |
-| CZK | AMD | reference | 16.142 |
-| EUR | AMD | reference | 394.39 |
-| GBP | AMD | reference | 471.1 |
-| GEL | AMD | reference | 139.02 |
-| HKD | AMD | reference | 45.966 |
-| INR | AMD | reference | 3.8845 |
-| IRR | AMD | reference | 0.00018691 |
-| JPY | AMD | reference | 2.2634 |
-| KGS | AMD | reference | 4.1216 |
-| KZT | AMD | reference | 0.78068 |
-| NOK | AMD | reference | 36.72 |
-| NZD | AMD | reference | 196.64 |
-| PLN | AMD | reference | 88.359 |
-| RUB | AMD | reference | 4.399 |
-| SEK | AMD | reference | 35.125 |
-| SGD | AMD | reference | 279.35 |
-| TJS | AMD | reference | 39.041 |
-| UAH | AMD | reference | 7.944 |
-| USD | AMD | reference | 360.47 |
-| UZS | AMD | reference | 0.030037 |
-| XAG | AMD | reference | 15325.305 |
-| XAU | AMD | reference | 1322053.3 |
-| XDR | AMD | reference | 484.18 |
+| AED | AMD | reference | 98.091 |
+| AUD | AMD | reference | 236.71 |
+| BRL | AMD | reference | 61.057 |
+| BYN | AMD | reference | 120.28 |
+| CAD | AMD | reference | 252.25 |
+| CHF | AMD | reference | 432.83 |
+| CNY | AMD | reference | 53.974 |
+| CZK | AMD | reference | 16.118 |
+| EUR | AMD | reference | 394.05 |
+| GBP | AMD | reference | 470.83 |
+| GEL | AMD | reference | 138.97 |
+| HKD | AMD | reference | 45.968 |
+| INR | AMD | reference | 3.8955 |
+| IRR | AMD | reference | 0.00018459 |
+| JPY | AMD | reference | 2.2606 |
+| KGS | AMD | reference | 4.1195 |
+| KZT | AMD | reference | 0.78652 |
+| NOK | AMD | reference | 36.539 |
+| NZD | AMD | reference | 196.68 |
+| PLN | AMD | reference | 87.906 |
+| RUB | AMD | reference | 4.3698 |
+| SEK | AMD | reference | 35.106 |
+| SGD | AMD | reference | 278.88 |
+| TJS | AMD | reference | 38.995 |
+| UAH | AMD | reference | 7.9575 |
+| USD | AMD | reference | 360.29 |
+| UZS | AMD | reference | 0.030061 |
+| XAG | AMD | reference | 15301.666 |
+| XAU | AMD | reference | 1305506.2 |
+| XDR | AMD | reference | 483.88 |
 
 </details>
 
